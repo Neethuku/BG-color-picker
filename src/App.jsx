@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div style={{ width: '100%', height: '100vh', backgroundColor: bgColor }} >
-      <h2 className='p-3 text-light fw-bold text-center'>Background color Picker</h2>
+      <h2 className='p-3 text-light fw-bold text-center'>Background Color Picker</h2>
       <div style={{ width: '30%', height: '100px' }} className='mx-auto  d-flex align-items-center justify-content-between'>
         <Button onClick={() => changeBgColor('DarkBlue')} variant="primary">Blue</Button>
         <Button onClick={() => changeBgColor('DarkGreen')} variant="success">Green</Button>
